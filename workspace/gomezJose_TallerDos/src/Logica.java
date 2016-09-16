@@ -100,8 +100,8 @@ public class Logica {
 				ene.pintar(5);
 			}
 
-			((Enemigo) ene).seek(cell);
-			((Enemigo) ene).location();
+			//((Enemigo) ene).seek(cell);
+			//((Enemigo) ene).location();
 		}
 	}
 
