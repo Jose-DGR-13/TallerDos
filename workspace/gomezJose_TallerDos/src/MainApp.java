@@ -51,8 +51,8 @@ public class MainApp extends PApplet {
 		y = (int) app.random(0, app.height);
 		tam++;
 		app.noFill();
-		app.stroke(255, 1.5f);
-		for (int i = 0; i < 5; i++) {
+		app.stroke(255, 2);
+		for (int i = 0; i < 16; i++) {
 			app.ellipse(app.width / 2 + PApplet.cos((PConstants.TWO_PI / 15) * i) * 600,
 					app.height / 2 + PApplet.sin((PConstants.TWO_PI / 15) * i) * 600, tamañoUno + tam, tamañoUno + tam);
 		}
